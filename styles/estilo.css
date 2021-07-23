@@ -39,7 +39,7 @@ a{
     background-repeat: no-repeat;
 }
 hr{
-    border-color: var(--cor3);
+    border-color: #ffffff63;
 }
 #promo{
     display: flex;
@@ -69,5 +69,4 @@ span{
 }
 footer{
     background-color: var(--cor4);
-    display: flex;
 }
