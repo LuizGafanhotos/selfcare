@@ -73,3 +73,22 @@ footer{
     background-color: var(--cor4);
     padding: 70px;
 }
+.roda_principal{
+    display: flex;
+    gap: 48rem;
+    align-items: flex-end;
+}
+#rodar > input{
+    padding: 10px;
+}
+#rodar > button{
+    position: absolute;
+    padding: 12px;
+    background-color: #5CA720;
+    color: white;
+    border-style: none;
+}
+.baseado{
+    display: flex;
+    gap: 48rem;
+}
