@@ -29,6 +29,12 @@ header > ul > li{
 }
 a{
     color: var(--cor1);
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+a:hover{
+    color: #3f691d;
 }
 .compreira{
     transition: transform 1s;
@@ -56,11 +62,12 @@ hr{
     margin: 10px;
 }
 .con{
-    margin: 10px;
+    width:100%;
+    margin: 30px;
 }
 .compra{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 3%;
     margin-bottom: 9%;
 }
@@ -87,6 +94,13 @@ footer{
     background-color: #5CA720;
     color: white;
     border-style: none;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+#rodar > button:hover{
+    cursor: pointer;
+    background-color: #325813;
 }
 .baseado{
     display: flex;
