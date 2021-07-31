@@ -106,5 +106,9 @@ footer{
 }
 .baseado{
     display: flex;
-    gap: 48rem;
+    justify-content: space-between;
+    padding: 20px;
+}
+@media screen and (max-width: 954px){
+    
 }
